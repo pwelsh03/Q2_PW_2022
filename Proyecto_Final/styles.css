@@ -50,16 +50,12 @@
     display:inline-block;
 }
 
-#categorias{
+#HABITACIONES{
     padding: 50px;
     justify-content: space-around;
 }
 
-#populares{
-    padding: 50px;
-}
-
-#nuevas{
+#ACTIVIDADES{
     padding: 50px;
 }
 
