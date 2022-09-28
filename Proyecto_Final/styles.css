@@ -1,72 +1,23 @@
-.MENU{
-    position: sticky;
-    bottom: 0;
-    background-color: rgb(182, 255, 250);
+/* etiqueta { propiedad : 
+valor ; } */
+*{border:1px solid rgb(30, 30, 30)}
+/*llamar a la etiqueta directo*/
+    body{background-color: rgb(216, 255, 254);}
+
+/*llamar a una clase */
+.titular{
+    background-color: blue;
+    color:grey;
+    font-size: 50px;
 }
 
-.MENU > ul li{
-    border: 1px solid rgba(0, 0, 0, 0.077);
-    padding: 10px 20px 10px 20px;
-    display: inline-block;
-    margin:0 150px 0 150px;
+/*llamar a un id*/
+#titular3{
+    color:deeppink;
 }
-
-.flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#logo{
-    position: sticky;
-    top: 0;
-    padding: 10px 0 10px 48%;
-    background-color: white;
-}
-
-.presentacion{
-    height: 400px;
-    background-image: url(/proyecto-final/images/amigos.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#titupresentacion{
-    color: rgb(13, 12, 12);
-    text-shadow: 1px 1px 2px rgb(255, 221, 221), 0 0 25px grey, 0 0 5px black;
-}
-
-.sections{
-    margin: 10px 0 10px 0;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    overflow: auto;
-    white-space: nowrap;
-    background: transparent;
-    height: 100%;
-}
-
-.sections1{
-    display:inline-block;
-}
-
 #HABITACIONES{
-    padding: 50px;
-    justify-content: space-around;
+    color: bisque;
 }
 
-#ACTIVIDADES{
-    padding: 50px;
-}
-
-div{
-    border: 1px solid black;
-}
-
-@media only screen and (max-width: 500px) {
-    .MENU{
-        position:fixed;
-        left: 0;
-        width: 0.3fr;
-    }
-}
+#padding-interno{padding:50px;
+margin:10px;}
