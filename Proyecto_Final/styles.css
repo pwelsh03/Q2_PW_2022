@@ -1,11 +1,11 @@
 .MENU{
     position: sticky;
     bottom: 0;
-    background-color: white;
+    background-color: rgb(182, 255, 250);
 }
 
 .MENU > ul li{
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.077);
     padding: 10px 20px 10px 20px;
     display: inline-block;
     margin:0 150px 0 150px;
