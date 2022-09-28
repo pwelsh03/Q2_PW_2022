@@ -3,7 +3,27 @@ valor ; } */
 *{border:1px solid rgb(30, 30, 30)}
 /*llamar a la etiqueta directo*/
     body{background-color: rgb(216, 255, 254);}
-
+    
+    .MENU > ul li{
+        border: 1px solid black;
+        padding: 10px 20px 10px 20px;
+        display: inline-block;
+        margin:0 150px 0 150px;
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #logo{
+        position: sticky;
+        top: 0;
+        padding: 10px 0 10px 48%;
+        background-color: white;
+    }
+    
 /*llamar a una clase */
 .titular{
     background-color: blue;
