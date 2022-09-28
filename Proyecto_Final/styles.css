@@ -1,37 +1,76 @@
-/* etiqueta { propiedad : 
-valor ; } */
-*{border:1px solid red}
-/*llamar a la etiqueta directo*/
-    body{background-color: green;}
-
-/*llamar a una clase */
-.titular{
-    background-color: blue;
-    color:grey;
-    font-size: 50px;
+.MENU{
+    position: sticky;
+    bottom: 0;
+    background-color: white;
 }
 
-/*llamar a un id*/
-#titular3{
-    color:deeppink;
+.MENU > ul li{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin:0 150px 0 150px;
 }
 
-
-/*******************/
-.rojo{color:red}
-.borde{border: 1px solid yellow;}
-
-#relativa{
-    position: relative;
-    right:100px;
-    top:100px
-}
-#whatsapp{
-    position:fixed;
-    bottom:1vw;
-    right:1vw;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#logo{
+    position: sticky;
+    top: 0;
+    padding: 10px 0 10px 48%;
+    background-color: white;
+}
 
-#padding-interno{padding:50px;
-margin:10px;}
+.presentacion{
+    height: 400px;
+    background-image: url(/proyecto-final/images/amigos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#titupresentacion{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+
+.sections{
+    margin: 10px 0 10px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    background: transparent;
+    height: 100%;
+}
+
+.sections1{
+    display:inline-block;
+}
+
+#categorias{
+    padding: 50px;
+    justify-content: space-around;
+}
+
+#populares{
+    padding: 50px;
+}
+
+#nuevas{
+    padding: 50px;
+}
+
+div{
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    .MENU{
+        position:fixed;
+        left: 0;
+        width: 0.3fr;
+    }
+}
