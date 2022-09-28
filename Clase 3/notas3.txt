@@ -1,0 +1,22 @@
+h1 / h2 / h3 ..... #se usa para el tamaño de las letras
+
+p --> se usa para los parafos
+Lorem*(un numero)--> te determina cuantos parrafos usas
+
+img --> src="" alt=""
+    src--> foto principal
+        "./" --> para hacer la ruta relativa de las imagenes
+    alt--> foto alternativa
+placeholder --> permite configurar el tamaño de las imagenes
+# etiqueta, propiedad = valor # 
+
+a --> etiqueta para vinculo
+target_blank --> te lleva a una pestaña nueva
+
+ul --> bullet points 
+ol --> lista de numeros
+
+div --> marca una seccion (es en bloque)
+span --> marca secciones
+
+input --> permite al usuario ingresar info
