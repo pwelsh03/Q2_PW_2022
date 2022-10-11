@@ -2,7 +2,7 @@
 valor ; } */
 *{border:1px solid rgb(30, 30, 30)}
 /*llamar a la etiqueta directo*/
-    body{background-color: rgb(216, 255, 254);}
+body{background-color: rgb(216, 255, 254);}
     
     .MENU > ul li{
         border: 1px solid black;
