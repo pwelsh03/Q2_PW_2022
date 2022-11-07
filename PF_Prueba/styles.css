@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 63px;
-    background: #171717;
+    background: #27272764;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -60,11 +60,11 @@ body {
     height: 60vh !important;
     background: url(/img/header2.jpg) no-repeat center;
     background-size: cover;
-}r
+}
 
 .title {
     margin-bottom: 40px;
-    font-size: 60%;
+    font-size: 175%;
     font-weight: 600;
     text-transform: uppercase;
     color: #fff;
@@ -81,10 +81,10 @@ p {
     display: inline-block;
     margin-top: 15px;
     padding: 10px 40px;
-    border: 2px solid #9c27b0;
+    border: 2px solid #28ac2f;
     color: #fff;
     text-decoration: none;
-    background: #9c27b0;
+    background: #28ac2f;
 }
 
 .btn:hover {
@@ -100,7 +100,7 @@ p {
 }
 
 .content {
-    height: 50vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,14 +136,14 @@ p {
     text-align: center;
     border-radius: 50%;
     color: #fff;
-    background: #9c27b0;
+    background: #28ac2f;
     font-size: 2rem;
     margin: 1rem 0;
 }
 
 .box-container .box h3 {
     font-size: 20px;
-    color: #9c27b0;
+    color: #28ac2f;
 }
 
 .box-container .box p {
@@ -155,8 +155,8 @@ p {
     background: #171717;
 }
 
-.price {
-    background: url(/img/header.jpg) no repeat center;
+.Actividades {
+    background: url(/img/header.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
